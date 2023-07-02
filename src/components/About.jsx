@@ -37,7 +37,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p 
-        variants={fadeIn("",",0.1",1)}
+        variants={fadeIn("","","0.1",1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         Tech enthusiast with a strong passion for staying up-to-date with the latest advancements in technology. Skilled in
         troubleshooting and problem-solving, with experience in various programming languages and software development.
