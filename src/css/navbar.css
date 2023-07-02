@@ -1,0 +1,108 @@
+
+.navb input[type="checkbox"],
+.navb .hamburger-lines{
+    display: none;
+}.navb{
+    display: none;
+}
+.dynamic-txt{
+    margin-left: 15px;
+
+}
+.dynamic-txt li{
+    color : #fc6060;
+    list-style: none;
+    font-size: 27px;
+    font-weight: 500;
+}
+.dynamic-txt li span{
+    position: relative;
+}
+.dynamic-txt li span::after{
+    content: "";
+    left: 0%;
+    background :rgb(5 8 22 / var(--tw-bg-opacity));
+    position: absolute;
+    height: 100%;
+    width:100%;
+    border-left: 2px solid #fc6060;
+    animation: typing 5s linear infinite;
+}
+@keyframes typing {
+    45%{
+        left: 100%;
+        width: 0%;
+    }
+    55%{
+        left: 100%;
+        width: 0%;
+    }
+    95%{
+        left: 0%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px){
+    .navb input[type="checkbox"],
+    .navb .hamburger-lines{
+        display: block;
+    }
+    .navb input[type="checkbox"]{
+        position: absolute;
+        display: block;
+        height: 37px;
+        width: 37px;
+        top: 20px;
+        z-index: 20;
+        right: 20px;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .navb .hamburger-lines{
+        display: block;
+        height: 28px;
+        width: 35px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .navb .hamburger-lines .line{
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #ffffff;
+    }
+    
+    .navb .hamburger-lines .line1{
+        transform-origin: 0% 0%;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .navb .hamburger-lines .line2{
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .navb .hamburger-lines .line3{
+        transform-origin: 0% 100%;
+        transition: transform 0.3s ease-in-out;
+    }
+    .navb input[type="checkbox"]:checked ~ .hamburger-lines .line1{
+        transform: rotate(45deg);
+    }
+
+    .navb input[type="checkbox"]:checked ~ .hamburger-lines .line2{
+        transform: scaleY(0);
+    }
+
+    .navb input[type="checkbox"]:checked ~ .hamburger-lines .line3{
+        transform: rotate(-45deg);
+    }
+
+}
