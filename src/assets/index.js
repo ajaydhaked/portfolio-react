@@ -47,7 +47,6 @@ export {
   figma,
   git,
   html,
-  avatar,
   javascript,
   mongodb,
   nodejs,
