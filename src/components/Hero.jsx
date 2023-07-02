@@ -3,7 +3,6 @@ import { useState,useEffect,useRef } from 'react'
 import {styles} from '../style'
 import { motion } from 'framer-motion'
 import { ParticlesContainer } from './canvas'
-import { avatar } from '../assets'
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
