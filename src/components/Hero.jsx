@@ -16,7 +16,10 @@ const Hero = () => {
             <div>
               <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]' >Ajay</span></h1>
               <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                a Second year Undergraduate <br className='sm:block hidden' />student of the Department of <br className='sm:block hidden' /><span className='text-red-500'>Computer Science and Engineering</span> <br className='sm:block hidden' />at <span className='text-red-500'>IIT Kharagpur.</span>
+                a Second year Undergraduate <br className='sm:block hidden' />
+                student of the Department of <br className='sm:block hidden' />
+                <span className='text-red-500 cursor-pointer' onClick={()=>{window.open('http://cse.iitkgp.ac.in/', '_blank');}} >Computer Science and Engineering</span>
+                 <br className='sm:block hidden' />at <span className='text-red-500 cursor-pointer' onClick={()=>{window.open('https://www.iitkgp.ac.in/', '_blank');}}>IIT Kharagpur.</span>
               </p>
             </div>
       </div>
