@@ -31,10 +31,6 @@ function ParticlesContainer() {
                     onClick: {
                         enable: true,
                         mode: "push",
-                        // to remove disable click outside canvas
-                        // div#tsparticles {
-                        //     pointer-events: none;
-                        // }
                     },    
                     onHover: {
                         enable: true,
@@ -44,7 +40,7 @@ function ParticlesContainer() {
                 },
                 modes: {
                     push: {
-                        quantity: 5,
+                        quantity: 8,
                         duration: 0.5,
                     },
                     repulse: {
@@ -83,7 +79,7 @@ function ParticlesContainer() {
                         value_area: 800,
                     },
                     value: 50,
-                    max: 65,
+                    max: 80,
                 },
                 opacity: {
                     value: 0.5,
