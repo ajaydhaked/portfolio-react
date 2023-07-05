@@ -11,7 +11,7 @@ const ServiceCard = ({index,title,icon}) =>{
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right","spring",0.5*index,0.75)}
-        className='w-full green-pink-gradient p-[4px]  rounded-[20px] shadow-card'
+        className='w-full bg-purple-950 p-[4px]  rounded-[20px] shadow-card'
         >
         <div
           options={{
@@ -43,11 +43,11 @@ const About = () => {
         troubleshooting and problem-solving, with experience in various programming languages and software development.
         Seeking opportunities to apply my skills and continue learning in a fast-paced, dynamic environment.
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service,index)=>(
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   )
 }

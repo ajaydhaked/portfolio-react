@@ -13,8 +13,8 @@ const Navbar = () => {
     words: ["Programmer", "Developer", "Student"],
     loop: Infinity,
     cursorStyle: "_",
-    deleteSpeed: 70,
-    typeSpeed: 100,
+    deleteSpeed: 80,
+    typeSpeed: 120,
     
   });
   return (
@@ -33,7 +33,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-10  object-contain" />
           <div className="text-white font-bold ">
             <p className="static-txt">Ajay</p>
-            <p className="static-txt text-red-400 text-[20px]" >|<span className="typingClass ml-2 text-red-400">{text}</span><Cursor className="text-black" /></p>
+            <p className="static-txt text-red-400 text-[17px]" >|<span className="typingClass ml-2 text-red-400">{text}</span><Cursor className="text-black" /></p>
           </div>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

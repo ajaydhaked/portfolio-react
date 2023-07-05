@@ -9,6 +9,8 @@ import {
     css,
     reactjs,
     redux,
+    dakshana,
+    iitkgp,
     tailwind,
     nodejs,
     mongodb,
@@ -142,6 +144,30 @@ import {
     },
   ];
   
+  const academicsdetails = [
+    {
+      institute_name: "Indian Institute of Technology, Kharagpur",
+      icon: iitkgp,
+      iconBg: "#E6DEDD",
+      date: "2021 - 2026",
+      points: [
+        "I am currently pursuing Computer Science and Engineering at IIT Kharagpur",
+        "I am exposed to cutting-edge technology and a rigorous academic curriculum that enhances my skills and knowledge in the field.",
+      ],
+    },
+    {
+      institute_name: "Dakshana Foundation(JNV Bundi)",
+      icon: dakshana,
+      iconBg: "#E6DEDD",
+      date: "2019 - 2021",
+      points: [
+        "The Dakshana Foundation is a non-profit organization.",
+        "I successfully qualified the NDA test, which granted me the privilege of joining the Dakshana Scholarship Program.",
+      ],
+    },
+    
+  ];
+  
   const testimonials = [
     {
       testimonial:
@@ -234,8 +260,8 @@ import {
       ],
       image: tripguide,
       source_code_link: "blanklink",
-      website_link: "2022.nssc.in",
+      website_link: "https://2022.nssc.in",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects ,academicsdetails };

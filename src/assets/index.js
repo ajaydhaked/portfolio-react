@@ -7,6 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import css from "./tech/css.png";
+import dakshana from "./academic/dakshana.png";
+import iitkgp from "./academic/iitkgp.svg";
 import rca from './company/rca.png'
 import nssc from './company/nssc-logo.png'
 import docker from "./tech/docker.png";
@@ -33,6 +35,8 @@ import ux from "./ux.png";
 import tripguide from "./tripguide.png";
 
 export {
+  dakshana,
+  iitkgp,
   logo,
   backend,
   creator,

@@ -40,7 +40,7 @@ function ParticlesContainer() {
                 },
                 modes: {
                     push: {
-                        quantity: 8,
+                        quantity: 10,
                         duration: 0.5,
                     },
                     repulse: {
@@ -70,7 +70,7 @@ function ParticlesContainer() {
                         default: "bounce",
                     },
                     random: false,
-                    speed: 0.75,
+                    speed: 1,
                     straight: false,
                 },
                 number: {
@@ -78,8 +78,8 @@ function ParticlesContainer() {
                         enable: true,
                         value_area: 800,
                     },
-                    value: 50,
-                    max: 80,
+                    value: 70,
+                    max: 85,
                 },
                 opacity: {
                     value: 0.5,
