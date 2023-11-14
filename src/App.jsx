@@ -10,7 +10,7 @@ const App=()=>{
           <Hero/>
         </div>
         <About className="-z-10" />
-        <Tech className="-z-10" />
+        {/* <Tech className="-z-10" /> */}
         {/* <Academic className="-z-10"/> */}
         <Experience className="-z-10"/>
         <Works className="-z-10"/>
